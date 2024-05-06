@@ -40,7 +40,7 @@ class UserDetails {
 		}
 	}
 	public static void dashBoard() {
-		System.out.println("Bloom - Serving Earth!!"+"\nTotal plants: " + plant+"\nWelcome " + u.get(loginNumber));
+		System.out.println("\n----------------------------------------------"+"Bloom - Serving Earth!!"+"\nTotal plants: " + plant+"\nWelcome " + u.get(loginNumber));
 		System.out.println("Choose action: " + "\n1) press 1 To plant" + "\n2)press 2 View Profile" + "\n3) press 3 to Logout");
 		int action = s.nextInt();
 		switch (action) {
